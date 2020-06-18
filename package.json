@@ -1,0 +1,15 @@
+{
+  "name": "deviation",
+  "description": "standard deviation method for JS",
+  "version": "1.0.0",
+  "repository": "git@github.com:m00nst3r/deviation.git",
+  "author": "Andrew <andrii.kolisnyk.dev@gmail.com>",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "license": "MIT",
+  "scripts": {
+    "build-ts": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.9.5"
+  }
+}
