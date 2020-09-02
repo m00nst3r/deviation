@@ -4,12 +4,21 @@
   "version": "1.0.0",
   "repository": "git@github.com:m00nst3r/deviation.git",
   "author": "Andrew <andrii.kolisnyk.dev@gmail.com>",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "scripts": {
-    "build-ts": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
     "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4"
   }
 }

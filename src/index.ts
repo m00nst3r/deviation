@@ -14,6 +14,3 @@ export const deviation = (arr: number[]): number => {
     const mean = arithmeticMean(arr) / arr.length;
     return Math.sqrt(Pow(arr, mean) / arr.length);
 }
-
-const Arr = [172.3, 170.4, 169.4, 169, 167, 173];
-console.log(deviation(Arr));
