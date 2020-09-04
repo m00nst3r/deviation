@@ -14,3 +14,5 @@ export const deviation = (arr: number[]): number => {
     const mean = arithmeticMean(arr) / arr.length;
     return Math.sqrt(Pow(arr, mean) / arr.length);
 }
+
+export default deviation;
