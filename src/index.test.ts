@@ -11,7 +11,7 @@ test("Get arithmetic mean", () => {
   expect(mean).toBe(3.25);
 })
 
-test("", () => {
+test("Should return base of mean array", () => {
   const expected = Pow([5, 4], 2);
   expect(expected).toBe(13);
 })
