@@ -11,7 +11,7 @@
 
 ```js
 
-import sd form "./build";
+import sd form "./dist";
 
 const deviation = sd([1, 2, 4]);
 
