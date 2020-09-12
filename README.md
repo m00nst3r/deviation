@@ -1,5 +1,5 @@
-# deviation
-standard deviation method for JS
+# Standard Deviation
+> javascript implementation of standard deviation
 
 ## Develpment
 
